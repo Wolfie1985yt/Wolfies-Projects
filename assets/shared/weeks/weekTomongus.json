@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Chewmate Hotfix", "icon-tomongus", [255, 103, 112]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "Rousey Rival",
+	"weekBefore": "",
+	"weekName": "Tomongus",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"difficulties": "hard"
+}

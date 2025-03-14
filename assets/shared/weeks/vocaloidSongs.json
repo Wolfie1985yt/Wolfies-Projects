@@ -1,0 +1,33 @@
+{
+	"songs": [
+		["24", "icon-tomongus", [255, 103, 112]],
+		["anonymous m", "icon-tomongus", [255, 103, 112]],
+		["candycookiechocolate", "icon-tomongus", [255, 103, 112]],
+		["confessions of a rotten girl", "icon-tomongus", [255, 103, 112]],
+		["hito mania", "icon-tomongus", [255, 103, 112]],
+		["igaku", "icon-tomongus", [255, 103, 112]],
+		["konton boogie", "icon-tomongus", [255, 103, 112]],
+		["m@gical cure love shot", "icon-tomongus", [255, 103, 112]],
+		["mesmerizer", "icon-tomongus", [255, 103, 112]],
+		["nee nee nee", "icon-tomongus", [255, 103, 112]],
+		["obsolete meat", "icon-tomongus", [255, 103, 112]],
+		["rabbit hole", "icon-tomongus", [255, 103, 112]],
+		["tetoris", "icon-tomongus", [255, 103, 112]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "",
+	"weekBefore": "",
+	"weekName": "Tomongus",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"difficulties": "hard"
+}
