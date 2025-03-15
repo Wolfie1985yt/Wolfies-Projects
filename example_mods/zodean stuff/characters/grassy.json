@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				20
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Grassy GrassyIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-24
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Grassy GrassyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-250,
+				30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Grassy GrassyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				347,
+				33
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Grassy GrassyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-320,
+				38
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Grassy GrassyRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Grassy",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "grassy",
+	"flip_x": false,
+	"healthbar_colors": [
+		50,
+		223,
+		44
+	],
+	"camera_position": [
+		-490,
+		-10
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5
+}

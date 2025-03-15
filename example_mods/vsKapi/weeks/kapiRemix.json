@@ -1,0 +1,59 @@
+{
+	"storyName": "b-b-break down!",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "kapi",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Wocky-Remix",
+			"kapi",
+			[
+				115,
+				233,
+				253
+			]
+		],
+		[
+			"Beathoven-Remix",
+			"kapi",
+			[
+				255,
+				113,
+				253
+			]
+		],
+		[
+			"Hairball-Remix",
+			"kapiangry",
+			[
+				255,
+				113,
+				253
+			]
+		],
+		[
+			"Nyaw-Remix",
+			"kapi",
+			[
+				115,
+				233,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Arcade Showdown",
+	"difficulties": "hard"
+}

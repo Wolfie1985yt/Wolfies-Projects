@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Meowgen", "dad", [122, 121, 128]],
+		["Scratch Post", "dad", [122, 121, 128]],
+		["Energy-Discharge", "dad", [122, 121, 128]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Meeeeow",
+	"weekBefore": "tutorial",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"difficulties": "hard, mania"
+}

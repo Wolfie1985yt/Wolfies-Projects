@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "ddrStomp",
+			"fps": 24,
+			"name": "Dad meow",
+			"indices": []
+		},
+		{
+			"offsets": [
+				162,
+				-335
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "singDown"
+		},
+		{
+			"offsets": [
+				162,
+				-198
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "singLeft"
+		},
+		{
+			"offsets": [
+				158,
+				-243
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				162,
+				-242
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "singUp"
+		},
+		{
+			"offsets": [
+				162,
+				-271
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "singRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/KAPI_ANGRYreanimated",
+	"position": [
+		10,
+		0
+	],
+	"healthicon": "kapiangry",
+	"flip_x": false,
+	"healthbar_colors": [
+		118,
+		113,
+		158
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Strange", "strange", [148, 22, 83]],
+		["Fragmentation", "icon-grassy", [148, 22, 83]]
+	],
+
+	"weekCharacters": [
+		"pico",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "philly",
+
+	"storyName": "STRANGE",
+	"weekBefore": "week1",
+	"weekName": "Week W",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

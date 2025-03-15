@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				158,
+				-243
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "Meow!",
+			"indices": [],
+			"name": "Dad meow"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				158,
+				-243
+			],
+			"anim": "Bruh.",
+			"fps": 24,
+			"name": "Dad stare",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				158,
+				-243
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				-198
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "singLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				-335
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "singDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				-283
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "singRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				162,
+				-242
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "singUp",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/KAPIreanimated",
+	"position": [
+		10,
+		0
+	],
+	"healthicon": "kapi",
+	"flip_x": false,
+	"healthbar_colors": [
+		118,
+		113,
+		158
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}
