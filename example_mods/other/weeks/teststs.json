@@ -1,0 +1,22 @@
+{
+	"songs": [	
+		["Philly-Nice-Erect", "icon-impostor", [255, 0, 0]],
+		["spookeez-erect", "icon-impostor", [255, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "Susogus",
+	"weekBefore": "",
+	"weekName": "Bonus",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"difficulties": "hard"
+}

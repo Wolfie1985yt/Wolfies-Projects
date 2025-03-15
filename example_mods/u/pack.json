@@ -1,0 +1,7 @@
+{
+	"name": "Sussus-Endus + Susogus but playable",
+	"description": "Recreation of the songs Sussus-Endus and Susogus, but they are now playable in psych engine!",
+	"restart": true,
+	"runsGlobally": false,
+	"color": [255, 0, 0]
+}

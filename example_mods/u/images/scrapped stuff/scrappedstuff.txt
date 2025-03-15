@@ -1,0 +1,17 @@
+Here are some scrapped things for the mod.
+
+1: Originally it was supposed to have warnings for ram usage, but was eventaully scrapped
+and removed from the mod.
+
+2: Sussus endus was supposed to be only playable after susogus but was scrapped
+due to the concept not working with save stuff cause idk that much about save data
+and not fitting in with the mod.
+
+3: There was going to be a legacy edition added into the mod but was scrapped and
+made a seperate download and only works in psych engine 0.6.3 without breaking.
+
+4: Mania charts were going to be added but susogus made it difficult and was scrapped.
+
+5: Susogus wasn't originally planned for the mod but was added after realizing how
+simple sussus endus was going to be. That wasn't true btw, sussus endus was pretty
+complicated but they both made it into the mod thankfully.

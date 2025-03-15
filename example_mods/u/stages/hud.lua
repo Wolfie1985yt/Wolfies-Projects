@@ -1,0 +1,28 @@
+function onCreate()
+
+	makeLuaSprite('overhang','skeld/BackThings',-1080,-740)
+	makeLuaSprite('back','skeld/SkeldBack',-1080,-790)	
+	makeLuaSprite('floor','skeld/Floor',-1080,-985)		
+	makeLuaSprite('reactorB','skeld/Reactor',-960,-690)	
+	makeLuaSprite('reactorBlight','skeld/Reactorlight',-960,-690)
+	makeLuaSprite('wire1','skeld/wires1',-0,-200)
+	makeLuaSprite('overlay','skeld/overlay',-1100,-700)	
+	makeLuaSprite('fog','skeld/overlay2',-1080,-740)		
+	
+	setGraphicSize('overhang',4150,2600)
+	setGraphicSize('floor',4150,2900)	
+	setGraphicSize('reactorB',3950,2500)
+	setGraphicSize('reactorBlight',3950,2500)	
+	setGraphicSize('back',4150,2600)
+	setGraphicSize('overlay',4350,2900)	
+	setGraphicSize('fog',4150,2600)	
+
+	addLuaSprite('back',false)
+	addLuaSprite('floor',false)	
+	addLuaSprite('overhang',false)
+	addLuaSprite('reactorB',false)
+	addLuaSprite('fog',true)	
+	addLuaSprite('overlay',true)
+	addLuaSprite('reactorBlight',false)	
+	addLuaSprite('wire1',false)		
+end

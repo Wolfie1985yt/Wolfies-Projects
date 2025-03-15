@@ -1,0 +1,21 @@
+{
+	"songs": [	
+		["Sussus-Endus", "icon-black", [0, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "Endus",
+	"weekBefore": "endus",
+	"weekName": "Endus",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"difficulties": "hard"
+}

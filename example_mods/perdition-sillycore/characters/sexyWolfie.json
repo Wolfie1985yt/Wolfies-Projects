@@ -1,0 +1,238 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-240
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "wolfie idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				88,
+				-178
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "wolfie left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-409
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "wolfie down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-139
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "wolfie right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				-202
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "wolfie up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				88,
+				-178
+			],
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "wolfie miss left"
+		},
+		{
+			"offsets": [
+				140,
+				-409
+			],
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "wolfie miss down"
+		},
+		{
+			"offsets": [
+				-58,
+				-204
+			],
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "wolfie miss up"
+		},
+		{
+			"offsets": [
+				-16,
+				-139
+			],
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "wolfie miss right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/wolfie",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "wolfie",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		157,
+		254
+	],
+	"camera_position": [
+		-130,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 2.8
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-250
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Pyscho_Sonic_IDLE instance 1"
+		},
+		{
+			"offsets": [
+				74,
+				-177
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Psycho_Sonic_LEFT"
+		},
+		{
+			"offsets": [
+				80,
+				-69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Psycho_Sonic_DOWN"
+		},
+		{
+			"offsets": [
+				11,
+				-145
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Pyscho_Sonic_UP"
+		},
+		{
+			"offsets": [
+				-100,
+				-67
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Psycho_Sonic_RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sexyKophy",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "kophy",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		102,
+		239
+	],
+	"camera_position": [
+		-130,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 1.6
+}

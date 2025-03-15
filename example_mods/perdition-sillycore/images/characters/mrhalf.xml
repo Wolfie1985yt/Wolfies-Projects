@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mrhalf.png">
+<SubTexture name="mrhalf idle0000" x="0" y="0" width="1590" height="3210" frameX="0" frameY="0" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0001" x="1590" y="0" width="1590" height="3166" frameX="0" frameY="-44" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0002" x="3180" y="0" width="1590" height="3044" frameX="0" frameY="-166" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0003" x="4770" y="0" width="1590" height="2874" frameX="0" frameY="-336" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0004" x="0" y="3210" width="1590" height="2703" frameX="0" frameY="-507" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0005" x="4770" y="0" width="1590" height="2874" frameX="0" frameY="-336" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0006" x="3180" y="0" width="1590" height="3044" frameX="0" frameY="-166" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0007" x="1590" y="0" width="1590" height="3166" frameX="0" frameY="-44" frameWidth="1590" frameHeight="3210" />
+<SubTexture name="mrhalf idle0008" x="0" y="0" width="1590" height="3210" frameX="0" frameY="0" frameWidth="1590" frameHeight="3210" />
+</TextureAtlas>

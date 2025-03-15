@@ -1,0 +1,62 @@
+{
+	"storyName": "TailsDoll",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"2atsu",
+			"icon-pixel-bf",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"defeat",
+			"icon-pixel-bf",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Sussus Catastrophe",
+			"icon-pixel-bf",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Nostalgic-duo",
+			"icon-pixel-bf",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"color-blind-encore",
+			"icon-pixel-bf",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"difficulties": "hard",
+	"hideStoryMode": false,
+	"weekName": "TailsDoll"
+}

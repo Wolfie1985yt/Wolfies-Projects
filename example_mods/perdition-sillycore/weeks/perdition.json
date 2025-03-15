@@ -1,0 +1,32 @@
+{
+	"storyName": "One last round",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "simplejump",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Perdition-V8-Real",
+			"beast",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "20min of hell"
+}

@@ -1,0 +1,178 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-18,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "MISS 0left"
+		},
+		{
+			"offsets": [
+				-15,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "MISS 1down"
+		},
+		{
+			"offsets": [
+				-36,
+				27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "MISS 2up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				636,
+				254
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "dead 0START",
+			"indices": []
+		},
+		{
+			"offsets": [
+				636,
+				-171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "dead 2END"
+		},
+		{
+			"offsets": [
+				636,
+				-223
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "dead 1MID"
+		},
+		{
+			"offsets": [
+				3,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "fall 0left"
+		},
+		{
+			"offsets": [
+				32,
+				-19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "fall 1down"
+		},
+		{
+			"offsets": [
+				-28,
+				59
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "fall 2up"
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"indices": [
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "fall !idle"
+		},
+		{
+			"offsets": [
+				-44,
+				22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "MISS 3right"
+		},
+		{
+			"offsets": [
+				-33,
+				14
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "fall 3right"
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "fall !idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfFly",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		500,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

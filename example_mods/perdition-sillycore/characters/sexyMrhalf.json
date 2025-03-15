@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				74,
+				-177
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Psycho_Sonic_LEFT"
+		},
+		{
+			"offsets": [
+				80,
+				-69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Psycho_Sonic_DOWN"
+		},
+		{
+			"offsets": [
+				11,
+				-145
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Pyscho_Sonic_UP"
+		},
+		{
+			"offsets": [
+				-110,
+				-107
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Psycho_Sonic_RIGHT"
+		},
+		{
+			"offsets": [
+				130,
+				1041
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "mrhalf idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mrhalf",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bf",
+	"flip_x": false,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		360,
+		280
+	],
+	"sing_duration": 6.1,
+	"scale": 0.2
+}

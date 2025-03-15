@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="wolfie.png">
+<SubTexture name="wolfie down0000" x="153" y="711" width="178" height="133" frameX="-31" frameY="-9" frameWidth="211" frameHeight="203" />
+<SubTexture name="wolfie down0001" x="331" y="711" width="169" height="133" frameX="-32" frameY="-10" frameWidth="211" frameHeight="203" />
+<SubTexture name="wolfie down0002" x="0" y="711" width="153" height="145" frameX="-34" frameY="-14" frameWidth="211" frameHeight="203" />
+<SubTexture name="wolfie down0003" x="789" y="0" width="152" height="152" frameX="-35" frameY="-23" frameWidth="211" frameHeight="203" />
+<SubTexture name="wolfie down0004" x="466" y="478" width="147" height="157" frameX="-26" frameY="-31" frameWidth="211" frameHeight="203" />
+<SubTexture name="wolfie idle0000" x="513" y="233" width="90" height="207" frameX="-31" frameY="-17" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie idle0001" x="401" y="241" width="90" height="204" frameX="-31" frameY="-21" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie idle0002" x="286" y="478" width="90" height="195" frameX="-31" frameY="-31" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie idle0003" x="376" y="478" width="90" height="190" frameX="-31" frameY="-37" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie idle0004" x="286" y="478" width="90" height="195" frameX="-31" frameY="-31" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie idle0005" x="401" y="241" width="90" height="204" frameX="-31" frameY="-21" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie idle0006" x="513" y="233" width="90" height="207" frameX="-31" frameY="-17" frameWidth="143" frameHeight="237" />
+<SubTexture name="wolfie left0000" x="513" y="0" width="136" height="233" frameX="-15" frameY="-15" frameWidth="177" frameHeight="260" />
+<SubTexture name="wolfie left0001" x="649" y="0" width="140" height="233" frameX="-13" frameY="-15" frameWidth="177" frameHeight="260" />
+<SubTexture name="wolfie left0002" x="0" y="478" width="143" height="233" frameX="-12" frameY="-15" frameWidth="177" frameHeight="260" />
+<SubTexture name="wolfie right0000" x="242" y="0" width="134" height="237" frameX="-10" frameY="-27" frameWidth="160" frameHeight="283" />
+<SubTexture name="wolfie right0001" x="376" y="0" width="137" height="237" frameX="-10" frameY="-27" frameWidth="160" frameHeight="283" />
+<SubTexture name="wolfie right0002" x="0" y="241" width="140" height="237" frameX="-10" frameY="-27" frameWidth="160" frameHeight="283" />
+<SubTexture name="wolfie up0000" x="649" y="233" width="121" height="229" frameX="-11" frameY="-10" frameWidth="144" frameHeight="245" />
+<SubTexture name="wolfie up0001" x="280" y="241" width="121" height="235" frameX="-11" frameY="-4" frameWidth="144" frameHeight="245" />
+<SubTexture name="wolfie up0002" x="0" y="0" width="121" height="241" frameX="-11" frameY="-2" frameWidth="144" frameHeight="245" />
+<SubTexture name="wolfie miss left0000" x="143" y="478" width="143" height="233" frameX="-12" frameY="-15" frameWidth="177" frameHeight="260" />
+<SubTexture name="wolfie miss down0000" x="613" y="478" width="147" height="157" frameX="-26" frameY="-31" frameWidth="211" frameHeight="203" />
+<SubTexture name="wolfie miss right0000" x="140" y="241" width="140" height="237" frameX="-10" frameY="-27" frameWidth="160" frameHeight="283" />
+<SubTexture name="wolfie miss up0000" x="121" y="0" width="121" height="241" frameX="-11" frameY="-2" frameWidth="144" frameHeight="245" />
+</TextureAtlas>
