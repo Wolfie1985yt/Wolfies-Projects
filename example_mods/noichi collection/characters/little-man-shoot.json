@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "shoot bf"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/SHOOT_littleman",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "little-man",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-320,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

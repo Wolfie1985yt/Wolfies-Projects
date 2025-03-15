@@ -1,0 +1,59 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sponmgbo",
+			"fps": 24,
+			"name": "sponmgbo",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"indices": [
+				9,
+				10
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "BF idle pop"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "pop",
+			"loop": false,
+			"name": "BF idle pop"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfpop",
+	"position": [
+		-210,
+		240
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

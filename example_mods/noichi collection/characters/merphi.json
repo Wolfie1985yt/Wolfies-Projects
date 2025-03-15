@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-150
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle0"
+		},
+		{
+			"offsets": [
+				21,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
+		},
+		{
+			"offsets": [
+				-2,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right0"
+		},
+		{
+			"offsets": [
+				0,
+				-147
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down 0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				-135
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-150
+			],
+			"anim": "out",
+			"fps": 24,
+			"name": "inChaos",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-158
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-158
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-158
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-158
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "miss0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/merphi",
+	"position": [
+		0,
+		250
+	],
+	"healthicon": "merphi",
+	"flip_x": true,
+	"healthbar_colors": [
+		20,
+		81,
+		235
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

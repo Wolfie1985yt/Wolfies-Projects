@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bigman idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-5
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bigman down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bigman left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bigman right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				7
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bigman up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/scrunkle",
+	"position": [
+		-300,
+		-600
+	],
+	"healthicon": "little-man",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-1000,
+		-1030
+	],
+	"sing_duration": 6.1,
+	"scale": 4
+}

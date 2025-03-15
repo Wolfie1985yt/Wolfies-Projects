@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				615,
+				740
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle instance 1"
+		},
+		{
+			"offsets": [
+				1009,
+				774
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left instance 1"
+		},
+		{
+			"offsets": [
+				1050,
+				1080
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down instance 1"
+		},
+		{
+			"offsets": [
+				623,
+				1063
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up instance 1"
+		},
+		{
+			"offsets": [
+				755,
+				873
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right instance 1"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lord_x_encore",
+	"position": [
+		200,
+		150
+	],
+	"healthicon": "lord",
+	"flip_x": false,
+	"healthbar_colors": [
+		35,
+		52,
+		61
+	],
+	"camera_position": [
+		-950,
+		-950
+	],
+	"sing_duration": 4,
+	"scale": 2
+}

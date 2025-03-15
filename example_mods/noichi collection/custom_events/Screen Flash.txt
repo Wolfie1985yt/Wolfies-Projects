@@ -1,0 +1,2 @@
+Value 1: Camera
+Value 2: Duration

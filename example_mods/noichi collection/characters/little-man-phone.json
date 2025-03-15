@@ -1,0 +1,70 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "phone open"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "phone press"
+		},
+		{
+			"offsets": [
+				0,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "phone done"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				116,
+				117
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "phone open"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Tiny_Person_with_a_shirt",
+	"position": [
+		50,
+		530
+	],
+	"healthicon": "little-man",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		20,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

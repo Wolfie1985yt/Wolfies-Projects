@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				42,
+				127
+			],
+			"anim": "idle",
+			"fps": 26,
+			"name": "YcrMadIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				252,
+				122
+			],
+			"anim": "singLEFT",
+			"fps": 38,
+			"name": "YcrMadLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				609,
+				222
+			],
+			"anim": "singUP",
+			"fps": 42,
+			"name": "YcrMadUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-56,
+				80
+			],
+			"anim": "singRIGHT",
+			"fps": 35,
+			"name": "YcrMadRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				34
+			],
+			"anim": "singDOWN",
+			"fps": 40,
+			"name": "YcrMadDOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				210
+			],
+			"indices": [],
+			"fps": 26,
+			"anim": "laugh",
+			"loop": true,
+			"name": "YcrLAUGH"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/YCR-Mad-Cherribun",
+	"position": [
+		0,
+		430
+	],
+	"healthicon": "ycr-pissy",
+	"flip_x": false,
+	"healthbar_colors": [
+		22,
+		13,
+		135
+	],
+	"camera_position": [
+		140,
+		-210
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,3 @@
+Value 1: 1 = Tails
+	 2 = Knux
+	 3 = Egg

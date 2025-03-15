@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				214,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				173,
+				-395
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				216,
+				-224
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				117,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				239,
+				-83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sally",
+	"position": [
+		150,
+		-200
+	],
+	"healthicon": "sallyAlt",
+	"flip_x": false,
+	"healthbar_colors": [
+		62,
+		27,
+		30
+	],
+	"camera_position": [
+		-190,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1.15
+}

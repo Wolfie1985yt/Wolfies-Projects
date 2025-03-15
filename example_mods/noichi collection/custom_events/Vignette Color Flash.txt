@@ -1,0 +1,2 @@
+Value 1: Color (Blue, Green, Red, Purple)
+Value 2: Duration

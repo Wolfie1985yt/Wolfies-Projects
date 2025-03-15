@@ -1,0 +1,2 @@
+Value 1: 1 = normal bf
+	 2 = super bf

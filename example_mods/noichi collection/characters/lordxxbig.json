@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				1171
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "lordballs_true Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				1171
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "lordballs_true Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				1171
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "lordballs_true Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				1171
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "lordballs_true Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				1171
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "lordballs_true Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				431,
+				1171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "lordballs_true Laugh"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lordxxbig",
+	"position": [
+		20,
+		320
+	],
+	"healthicon": "icon-lord",
+	"flip_x": false,
+	"healthbar_colors": [
+		54,
+		53,
+		96
+	],
+	"camera_position": [
+		-450,
+		-1310
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}

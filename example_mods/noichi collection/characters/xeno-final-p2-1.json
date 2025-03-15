@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				-31
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-140
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				-27
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				-16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				58,
+				-27
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "die",
+			"loop": false,
+			"name": "anim-die"
+		},
+		{
+			"offsets": [
+				-33,
+				-17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "laugh",
+			"loop": false,
+			"name": "anim-laugh"
+		},
+		{
+			"offsets": [
+				72,
+				-3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "scum",
+			"loop": false,
+			"name": "anim-scum"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/xeno-final-p2-1",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "xeno-final-p2",
+	"flip_x": false,
+	"healthbar_colors": [
+		41,
+		6,
+		117
+	],
+	"camera_position": [
+		30,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

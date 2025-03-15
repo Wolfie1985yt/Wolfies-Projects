@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-149
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left-",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-149
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right-",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-76
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up-",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				-151
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down-",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-150
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle-",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-145
+			],
+			"anim": "in",
+			"fps": 24,
+			"name": "inClassic",
+			"indices": []
+		},
+		{
+			"offsets": [
+				8,
+				-158
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "miss-"
+		},
+		{
+			"offsets": [
+				8,
+				-158
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "miss-"
+		},
+		{
+			"offsets": [
+				8,
+				-158
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "miss-"
+		},
+		{
+			"offsets": [
+				8,
+				-158
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "miss-"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/merphi_chaos",
+	"position": [
+		0,
+		250
+	],
+	"healthicon": "merphiChaos",
+	"flip_x": true,
+	"healthbar_colors": [
+		15,
+		15,
+		15
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
