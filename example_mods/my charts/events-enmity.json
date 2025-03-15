@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				79545.4545454546,
+				[
+					[
+						"Play Animation",
+						"out",
+						"BF"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Change Character",
+						"0",
+						"merphi_chaos"
+					]
+				]
+			],
+			[
+				130454.545454546,
+				[
+					[
+						"Play Animation",
+						"in",
+						"BF"
+					]
+				]
+			],
+			[
+				130909.090909091,
+				[
+					[
+						"Change Character",
+						"0",
+						"merphi"
+					]
+				]
+			]
+		]
+	}
+}

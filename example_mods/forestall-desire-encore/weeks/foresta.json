@@ -1,0 +1,26 @@
+{
+	"storyName": "TailsDoll",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"forestall-desire-encore",
+			"icon-pixel-bf",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"difficulties": "Hard, tbag",
+	"hideStoryMode": false,
+	"weekName": "TailsDoll"
+}

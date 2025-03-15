@@ -1,0 +1,1274 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": "requite",
+		"player1": "pico-requital",
+		"player2": "requital",
+		"player3": null,
+		"events": [
+			[
+				24115.3846153846,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pic"
+					]
+				]
+			],
+			[
+				30923.0769230769,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				31153.8461538462,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				34153.8461538462,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				34615.3846153846,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				38076.9230769231,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				38538.4615384615,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				38743.2692307692,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pico-requital"
+					]
+				]
+			],
+			[
+				39923.0769230769,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				40615.3846153846,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				41307.6923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				41769.2307692308,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				44307.6923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				45461.5384615385,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				45923.0769230769,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				48461.5384615385,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				49384.6153846154,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				49615.3846153846,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				50076.9230769231,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				50307.6923076923,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				51230.7692307692,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				51461.5384615385,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				52615.3846153846,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				53076.9230769231,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				53884.6153846154,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pic"
+					]
+				]
+			],
+			[
+				54461.5384615384,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				54923.0769230769,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				55384.6153846154,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				56769.2307692308,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				57000,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				57461.5384615384,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				57692.3076923077,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				59307.6923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				60461.5384615384,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				61384.6153846154,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				62076.9230769231,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				62760.5769230769,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pico-requital"
+					]
+				]
+			],
+			[
+				63230.7692307692,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				64153.8461538461,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				65769.2307692307,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				66000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				67384.6153846154,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				67846.1538461538,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				68076.923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"gf"
+					]
+				]
+			],
+			[
+				69461.5384615384,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				69692.3076923077,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				71307.6923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				71423.0769230769,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				71538.4615384615,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				73153.8461538461,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				73846.1538461538,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				74769.2307692307,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				75230.7692307692,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				75461.5384615384,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				75692.3076923077,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				76038.4615384615,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pic"
+					]
+				]
+			],
+			[
+				76846.1538461538,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				77538.4615384615,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"2"
+					]
+				]
+			],
+			[
+				78692.3076923077,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				78923.0769230769,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"2"
+					]
+				]
+			],
+			[
+				79384.6153846153,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				81230.7692307692,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"2"
+					]
+				]
+			],
+			[
+				82153.8461538461,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				82615.3846153846,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				83076.923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				83076.923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				84923.0769230769,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				86076.923076923,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				88153.8461538461,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				88384.6153846153,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				88500,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				88615.3846153846,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				89538.4615384615,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"2"
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"2"
+					]
+				]
+			],
+			[
+				90562.4999999999,
+				[
+					[
+						"Change Character",
+						"2",
+						"pico-whisper"
+					]
+				]
+			],
+			[
+				90576.923076923,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf-whisper"
+					]
+				]
+			],
+			[
+				90591.3461538461,
+				[
+					[
+						"Change Character",
+						"1",
+						"requital-whisper"
+					]
+				]
+			],
+			[
+				121759.615384615,
+				[
+					[
+						"Change Character",
+						"2",
+						"bf-requital"
+					]
+				]
+			],
+			[
+				121779.807692308,
+				[
+					[
+						"Change Character",
+						"0",
+						"pico-requital"
+					]
+				]
+			],
+			[
+				121798.076923077,
+				[
+					[
+						"Change Character",
+						"1",
+						"requital"
+					]
+				]
+			],
+			[
+				121846.153846154,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pic"
+					]
+				]
+			],
+			[
+				123000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				123680.769230769,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pico-requital"
+					]
+				]
+			],
+			[
+				126000,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				126576.923076923,
+				[
+					[
+						"Play Animation",
+						"reload",
+						"BF"
+					]
+				]
+			],
+			[
+				126923.076923077,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				128769.230769231,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				129000,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					],
+					[
+						"Play Animation",
+						"dodge",
+						"gf"
+					]
+				]
+			],
+			[
+				129856.730769231,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				130384.615384615,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				130615.384615385,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"bf"
+					]
+				]
+			],
+			[
+				131769.230769231,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				132230.769230769,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				132461.538461538,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"bf"
+					]
+				]
+			],
+			[
+				134076.923076923,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				134538.461538461,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"Gf"
+					]
+				]
+			],
+			[
+				134884.615384615,
+				[
+					[
+						"Play Animation",
+						"reload",
+						"BF"
+					]
+				]
+			],
+			[
+				135692.307692308,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				136961.538461538,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pic"
+					]
+				]
+			],
+			[
+				137307.692307692,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					]
+				]
+			],
+			[
+				137769.230769231,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				138000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				139153.846153846,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				139615.384615385,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				139846.153846154,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				140769.230769231,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				141461.538461538,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				142153.846153846,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				143076.923076923,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				143538.461538461,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				144692.307692308,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				145384.615384615,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				146076.923076923,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"GF"
+					],
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				146307.692307692,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				147000,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"BF"
+					]
+				]
+			],
+			[
+				147230.769230769,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				148846.153846154,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				150000,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				150923.076923077,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				151038.461538461,
+				[
+					[
+						"Play Animation",
+						"shoot1",
+						"BF"
+					]
+				]
+			],
+			[
+				151153.846153846,
+				[
+					[
+						"Play Animation",
+						"shoot2",
+						"BF"
+					]
+				]
+			],
+			[
+				151355.769230769,
+				[
+					[
+						"Change Character",
+						"BF",
+						"pico-requital"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "BloodSplash",
+		"bfEncore": "bf-encore",
+		"gfEncore": "GF_hedhehog",
+		"validScore": false,
+		"gfVersion": "bf-requital",
+		"bpm": 130,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"gfSkin": "gf",
+		"bfSkin": "bf",
+		"song": "forestall-desire",
+		"isRing": null
+	}
+}

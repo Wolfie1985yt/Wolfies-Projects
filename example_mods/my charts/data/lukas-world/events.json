@@ -1,0 +1,70 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "LukasWorld",
+		"player1": "Lukas",
+		"player2": "LostPlay",
+		"player3": "gf",
+		"events": [
+			[
+				5500,
+				[
+					[
+						"Lyrics",
+						"Its...",
+						"0.75"
+					]
+				]
+			],
+			[
+				8000,
+				[
+					[
+						"Lyrics",
+						"Lukas!",
+						"0.90"
+					]
+				]
+			],
+			[
+				9500,
+				[
+					[
+						"Lyrics",
+						"Its Lukas!",
+						"1.35"
+					]
+				]
+			],
+			[
+				11100,
+				[
+					[
+						"Lyrics",
+						"You yourself are Lukas",
+						"1"
+					]
+				]
+			],
+			[
+				12200,
+				[
+					[
+						"Lyrics",
+						"Went to...",
+						"0.5"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": true,
+		"gfVersion": "gf",
+		"bpm": 150,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "lukas-world",
+		"isRing": null
+	}
+}
