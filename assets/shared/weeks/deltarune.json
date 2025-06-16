@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["TV-Time", "icon-kris", [227, 204, 251]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "Rousey Rival",
+	"weekBefore": "",
+	"weekName": "Tomongus",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"difficulties": "hard"
+}

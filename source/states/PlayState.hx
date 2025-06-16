@@ -34,6 +34,12 @@ import substates.GameOverSubstate;
 #if !flash
 import openfl.filters.ShaderFilter;
 #end
+import flixel.system.scaleModes.StageSizeScaleMode;
+import flixel.system.scaleModes.RelativeScaleMode;
+import flixel.system.scaleModes.RatioScaleMode;
+import lime.ui.Window;
+import openfl.Lib;
+import openfl.system.Capabilities;
 
 import shaders.ErrorHandledShader;
 
@@ -106,6 +112,7 @@ class PlayState extends MusicBeatState
 	private var isCameraOnForcedPos:Bool = false;
 
 	public var boyfriendMap:Map<String, Character> = new Map<String, Character>();
+	public var boyfriendUnderlayMap:Map<String, Character> = new Map<String, Character>();
 	public var dadMap:Map<String, Character> = new Map<String, Character>();
 	public var gfMap:Map<String, Character> = new Map<String, Character>();
 
@@ -132,6 +139,7 @@ class PlayState extends MusicBeatState
 	#end
 
 	public var boyfriendGroup:FlxSpriteGroup;
+	public var boyfriendUnderlayGroup:FlxSpriteGroup;
 	public var dadGroup:FlxSpriteGroup;
 	public var gfGroup:FlxSpriteGroup;
 	public static var curStage:String = '';
@@ -170,6 +178,7 @@ class PlayState extends MusicBeatState
 
 	public var dad:Character = null;
 	public var gf:Character = null;
+	public var boyfriendUnderlay:Character = null;
 	public var boyfriend:Character = null;
 
 	public var notes:FlxTypedGroup<Note>;
@@ -446,6 +455,7 @@ class PlayState extends MusicBeatState
 			girlfriendCameraOffset = [0, 0];
 
 		boyfriendGroup = new FlxSpriteGroup(BF_X, BF_Y);
+		boyfriendUnderlayGroup = new FlxSpriteGroup(BF_X, BF_Y);
 		dadGroup = new FlxSpriteGroup(DAD_X, DAD_Y);
 		gfGroup = new FlxSpriteGroup(GF_X, GF_Y);
 
@@ -462,8 +472,22 @@ class PlayState extends MusicBeatState
 			case 'tank': new Tank();					//Week 7 - Ugh, Guns, Stress
 			case 'phillyStreets': new PhillyStreets(); 	//Weekend 1 - Darnell, Lit Up, 2Hot
 			case 'phillyBlazin': new PhillyBlazin();	//Weekend 1 - Blazin
+			case 'gameshow': new Gameshow();
 		}
-		if(isPixelStage) introSoundsSuffix = '-pixel';
+
+		switch(songName.toLowerCase()) {
+			case 'tv-time':
+				resizeGame(1280, 960, false);
+		}
+
+		if(isPixelStage) {
+			switch(songName.toLowerCase()) {
+				case 'tv-time':
+					introSoundsSuffix = '';
+				default:
+					introSoundsSuffix = '-pixel';
+			}
+		}
 
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
 		luaDebugGroup = new FlxTypedGroup<psychlua.DebugLuaText>();
@@ -485,6 +509,19 @@ class PlayState extends MusicBeatState
 		startCharacterPos(dad, true);
 		dadGroup.add(dad);
 
+		switch(songName.toLowerCase()) {
+			case 'tv-time':
+				boyfriendUnderlay = new Character(0, 0, 'kris-guitar-outline', true);
+				startCharacterPos(boyfriendUnderlay);
+				boyfriendUnderlayGroup.add(boyfriendUnderlay);
+			default:
+				boyfriendUnderlay = new Character(0, 0, SONG.player1, true);
+				startCharacterPos(boyfriendUnderlay);
+				boyfriendUnderlayGroup.add(boyfriendUnderlay);
+				boyfriendUnderlayGroup.alpha = 0;
+				boyfriendUnderlayGroup.visible = false;
+		}
+
 		boyfriend = new Character(0, 0, SONG.player1, true);
 		startCharacterPos(boyfriend);
 		boyfriendGroup.add(boyfriend);
@@ -500,6 +537,7 @@ class PlayState extends MusicBeatState
 		{
 			add(gfGroup);
 			add(dadGroup);
+			add(boyfriendUnderlayGroup);
 			add(boyfriendGroup);
 		}
 		
@@ -541,6 +579,7 @@ class PlayState extends MusicBeatState
 		// CHARACTER SCRIPTS
 		if(gf != null) startCharacterScripts(gf.curCharacter);
 		startCharacterScripts(dad.curCharacter);
+		startCharacterScripts(boyfriendUnderlay.curCharacter);
 		startCharacterScripts(boyfriend.curCharacter);
 		#end
 
@@ -661,7 +700,11 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = healthBar.y + 70;
 
 		uiGroup.cameras = [camHUD];
-		noteGroup.cameras = [camHUD];
+		if(songName.toLowerCase() == 'tv-time') {
+			noteGroup.cameras = [camGame];
+			grpNoteSplashes.cameras = [camGame];
+		} else
+			noteGroup.cameras = [camHUD];
 		comboGroup.cameras = [camHUD];
 
 		startingSong = true;
@@ -705,7 +748,7 @@ class PlayState extends MusicBeatState
 			eventNotes.sort(sortByTime);
 		}
 
-		if (songName == 'chewmate-hotfix')
+		if (songName == 'chewmate-hotfix' || songName.toLowerCase() == 'tv-time')
 			autoZooming = false;
 
 		startCallback();
@@ -733,6 +776,22 @@ class PlayState extends MusicBeatState
 		grpNoteSplashes.add(splash);
 		splash.alpha = 0.000001; //cant make it invisible or it won't allow precaching
 
+		if(songName.toLowerCase() == 'tv-time') {
+			for(i in 0...4) {
+				trace(strumLineNotes.members[i].x, strumLineNotes.members[i+4].x);
+				var temp:Float = strumLineNotes.members[i].x + 330;
+				strumLineNotes.members[i].x = strumLineNotes.members[i+4].x + 330;
+				strumLineNotes.members[i+4].x = temp;
+				trace(strumLineNotes.members[i].x, strumLineNotes.members[i+4].x);
+
+				strumLineNotes.members[i].scrollFactor.x = strumLineNotes.members[i+4].scrollFactor.x = 
+				strumLineNotes.members[i].scrollFactor.y = strumLineNotes.members[i+4].scrollFactor.y = 1;
+
+				strumLineNotes.members[i].y += 50;
+				strumLineNotes.members[i+4].y += 400;
+			}
+		}
+
 		super.create();
 		Paths.clearUnusedMemory();
 
@@ -740,6 +799,28 @@ class PlayState extends MusicBeatState
 		cachePopUpScore();
 
 		if(eventNotes.length < 1) checkEventNote();
+	}
+
+	static public function resizeGame(width:Int, height:Int, resize:Bool) {
+		if(!resize) {
+			FlxG.fullscreen = false;
+			FlxG.resizeWindow(width, height);
+			FlxG.scaleMode = new RatioScaleMode(true);
+			var window = lime.app.Application.current.window;
+			window.fullscreen = false;
+			window.resizable = false;
+			window.x = Math.floor((Capabilities.screenResolutionX / 2) - (width / 2));
+			window.y = Math.floor((Capabilities.screenResolutionY / 2) - (height / 2));
+		} else {
+			FlxG.fullscreen = false;
+			FlxG.resizeWindow(width, height);
+			FlxG.scaleMode = new RatioScaleMode(true);
+			var window = lime.app.Application.current.window;
+			window.fullscreen = true;
+			window.resizable = true;
+			window.x = Math.floor((Capabilities.screenResolutionX / 2) - (width / 2));
+			window.y = Math.floor((Capabilities.screenResolutionY / 2) - (height / 2));
+		}
 	}
 
 	function set_songSpeed(value:Float):Float
@@ -1187,7 +1268,7 @@ class PlayState extends MusicBeatState
 	}
 	public function addBehindBF(obj:FlxBasic)
 	{
-		insert(members.indexOf(boyfriendGroup), obj);
+		insert(members.indexOf(boyfriendUnderlayGroup), obj);
 	}
 	public function addBehindDad(obj:FlxBasic)
 	{
@@ -1493,8 +1574,8 @@ class PlayState extends MusicBeatState
 				swagNote.mustPress = gottaHitNote;
 				swagNote.sustainLength = holdLength;
 				swagNote.noteType = noteType;
-	
-				swagNote.scrollFactor.set();
+				if(songName.toLowerCase() == 'tv-time')
+					swagNote.scrollFactor.x = swagNote.scrollFactor.y = 1;
 				unspawnNotes.push(swagNote);
 
 				var curStepCrochet:Float = 60 / daBpm * 1000 / 4.0;
@@ -1510,7 +1591,8 @@ class PlayState extends MusicBeatState
 						sustainNote.mustPress = swagNote.mustPress;
 						sustainNote.gfNote = swagNote.gfNote;
 						sustainNote.noteType = swagNote.noteType;
-						sustainNote.scrollFactor.set();
+						if(songName.toLowerCase() == 'tv-time')
+							sustainNote.scrollFactor.x = sustainNote.scrollFactor.y = 1;
 						sustainNote.parent = swagNote;
 						unspawnNotes.push(sustainNote);
 						swagNote.tail.push(sustainNote);
@@ -1645,6 +1727,9 @@ class PlayState extends MusicBeatState
 		{
 			// FlxG.log.add(i);
 			var targetAlpha:Float = 1;
+			if(songName.toLowerCase() == 'tv-time')
+				targetAlpha = 0;
+
 			if (player < 1)
 			{
 				if(!ClientPrefs.data.opponentStrums) targetAlpha = 0;
@@ -2105,6 +2190,7 @@ class PlayState extends MusicBeatState
 			{
 				FlxG.animationTimeScale = 1;
 				boyfriend.stunned = true;
+				boyfriendUnderlay.stunned = true;
 				deathCounter++;
 
 				paused = true;
@@ -2207,8 +2293,11 @@ class PlayState extends MusicBeatState
 				}
 				if(value != 1) {
 					boyfriend.playAnim('hey', true);
+					boyfriendUnderlay.playAnim('hey', true);
 					boyfriend.specialAnim = true;
+					boyfriendUnderlay.specialAnim = true;
 					boyfriend.heyTimer = flValue2;
+					boyfriendUnderlay.heyTimer = flValue2;
 				}
 
 			case 'Set GF Speed':
@@ -2216,7 +2305,7 @@ class PlayState extends MusicBeatState
 				gfSpeed = Math.round(flValue1);
 
 			case 'Add Camera Zoom':
-				if(ClientPrefs.data.camZooms && FlxG.camera.zoom < 1.35) {
+				if(ClientPrefs.data.camZooms) {
 					if(flValue1 == null) flValue1 = 0.015;
 					if(flValue2 == null) flValue2 = 0.03;
 
@@ -3183,8 +3272,12 @@ class PlayState extends MusicBeatState
 						if(char.getAnimationName() == holdAnim || char.getAnimationName() == holdAnim + '-loop') canPlay = false;
 					}
 	
-					if(canPlay) char.playAnim(animToPlay, true);
+					if(canPlay) {
+						char.playAnim(animToPlay, true);
+						boyfriendUnderlay.playAnim(animToPlay, true);
+					}
 					char.holdTimer = 0;
+					boyfriendUnderlay.holdTimer = 0;
 
 					if(note.noteType == 'Hey!')
 					{
@@ -3326,6 +3419,16 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
+		switch(curStep) {
+			case 128:
+				if(songName.toLowerCase() == 'tv-time') {
+					for(i in 0...4) {
+						FlxTween.tween(strumLineNotes.members[i], {alpha: 1}, 2, {ease: FlxEase.smootherStepOut});
+						FlxTween.tween(strumLineNotes.members[i+4], {alpha: 1}, 2, {ease: FlxEase.smootherStepOut});
+					}
+				}
+		}
+
 		lastStepHit = curStep;
 		setOnScripts('curStep', curStep);
 		callOnScripts('onStepHit');
@@ -3362,8 +3465,10 @@ class PlayState extends MusicBeatState
 	{
 		if (gf != null && beat % Math.round(gfSpeed * gf.danceEveryNumBeats) == 0 && !gf.getAnimationName().startsWith('sing') && !gf.stunned)
 			gf.dance();
-		if (boyfriend != null && beat % boyfriend.danceEveryNumBeats == 0 && !boyfriend.getAnimationName().startsWith('sing') && !boyfriend.stunned)
+		if (boyfriend != null && beat % boyfriend.danceEveryNumBeats == 0 && !boyfriend.getAnimationName().startsWith('sing') && !boyfriend.stunned) {
 			boyfriend.dance();
+			boyfriendUnderlay.dance();
+		}
 		if (dad != null && beat % dad.danceEveryNumBeats == 0 && !dad.getAnimationName().startsWith('sing') && !dad.stunned)
 			dad.dance();
 	}
@@ -3371,8 +3476,10 @@ class PlayState extends MusicBeatState
 	public function playerDance():Void
 	{
 		var anim:String = boyfriend.getAnimationName();
-		if(boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 #if FLX_PITCH / FlxG.sound.music.pitch #end) * boyfriend.singDuration && anim.startsWith('sing') && !anim.endsWith('miss'))
+		if(boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 #if FLX_PITCH / FlxG.sound.music.pitch #end) * boyfriend.singDuration && anim.startsWith('sing') && !anim.endsWith('miss')) {
 			boyfriend.dance();
+			boyfriendUnderlay.dance();
+		}
 	}
 
 	override function sectionHit()

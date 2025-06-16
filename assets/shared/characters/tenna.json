@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [147, 4],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [123, -146],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [27, -92],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		},
+		{
+			"offsets": [15, -2],
+			"loop": true,
+			"fps": 86,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle0"
+		},
+		{
+			"offsets": [105, -8],
+			"loop": true,
+			"fps": 48,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "idle-alt"
+		},
+		{
+			"loop": true,
+			"offsets": [39, -98],
+			"anim": "idle-pose",
+			"fps": 86,
+			"name": "pose",
+			"indices": []
+		},
+		{
+			"offsets": [15, -50],
+			"loop": true,
+			"fps": 86,
+			"anim": "idle-comms",
+			"indices": [],
+			"name": "comms"
+		},
+		{
+			"loop": false,
+			"offsets": [195, 4],
+			"anim": "singLEFT",
+			"fps": 48,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [51, -2],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "down-alt",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/deltarune/tenna/tenna",
+	"position": [0, 350],
+	"healthicon": "tenna",
+	"flip_x": false,
+	"healthbar_colors": [227, 204, 251],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 6,
+	"_editor_isPlayer": false
+}

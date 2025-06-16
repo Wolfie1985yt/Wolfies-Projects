@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [11, 12],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [11, 12],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [11, 24],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [17, 0],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, 30],
+			"anim": "hey",
+			"fps": 24,
+			"name": "coolpose",
+			"indices": []
+		},
+		{
+			"offsets": [17, 0],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle-ready"
+		},
+		{
+			"offsets": [47, 12],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "idle-yesg"
+		},
+		{
+			"offsets": [-7, 12],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-alt-alt",
+			"indices": [],
+			"name": "idle-nog"
+		},
+		{
+			"offsets": [-19, 30],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-pose",
+			"indices": [],
+			"name": "coolpose"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/deltarune/kris/kris-rock",
+	"position": [0, 350],
+	"healthicon": "kris",
+	"flip_x": true,
+	"healthbar_colors": [11, 11, 59],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 6,
+	"_editor_isPlayer": true
+}

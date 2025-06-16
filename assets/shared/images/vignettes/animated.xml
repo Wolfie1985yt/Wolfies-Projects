@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="animated.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Scary0000" x="2228" y="1672" width="2228" height="1672" frameX="2" frameY="2" frameWidth="2224" frameHeight="1668"/>
+	<SubTexture name="Scary0001" x="0" y="1672" width="2228" height="1672" frameX="2" frameY="2" frameWidth="2224" frameHeight="1668"/>
+	<SubTexture name="Scary0002" x="0" y="0" width="2228" height="1672" frameX="2" frameY="2" frameWidth="2224" frameHeight="1668"/>
+	<SubTexture name="Scary0003" x="2228" y="0" width="2228" height="1672" frameX="2" frameY="2" frameWidth="2224" frameHeight="1668"/>
+</TextureAtlas>
