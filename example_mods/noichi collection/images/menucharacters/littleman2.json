@@ -1,0 +1,9 @@
+{
+	"idle_anim": "cool little man",
+	"image": "little-man",
+	"position": [
+		150,
+		0
+	],
+	"scale": 1
+}

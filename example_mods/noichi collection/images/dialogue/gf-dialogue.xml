@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf-dialogue.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf default0000" x="10" y="10" width="346" height="498"/>
+	<SubTexture name="gf default loop0000" x="10" y="10" width="346" height="498"/>
+	<SubTexture name="gf mad0000" x="376" y="10" width="346" height="498"/>
+	<SubTexture name="gf mad loop0000" x="376" y="10" width="346" height="498"/>
+	<SubTexture name="gf unamused0000" x="742" y="10" width="346" height="498"/>
+	<SubTexture name="gf unamused loop0000" x="742" y="10" width="346" height="498"/>
+</TextureAtlas>

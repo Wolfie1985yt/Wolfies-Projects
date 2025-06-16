@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gang_bop.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gang instance 10000" x="10" y="10" width="2219" height="1062" frameX="0" frameY="-41" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10001" x="10" y="10" width="2219" height="1062" frameX="0" frameY="-41" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10002" x="10" y="1092" width="2210" height="1087" frameX="-5" frameY="-16" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10003" x="10" y="1092" width="2210" height="1087" frameX="-5" frameY="-16" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10004" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10005" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10006" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10007" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10008" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10009" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10010" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10011" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10012" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+	<SubTexture name="gang instance 10013" x="10" y="2199" width="2202" height="1103" frameX="-9" frameY="0" frameWidth="2219" frameHeight="1103"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pico-dialogue.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pico default instance 10000" x="10" y="10" width="364" height="511"/>
+	<SubTexture name="pico default loop instance 10000" x="10" y="10" width="364" height="511"/>
+	<SubTexture name="pico happy instance 10000" x="394" y="10" width="364" height="511"/>
+	<SubTexture name="pico happy loop instance 10000" x="394" y="10" width="364" height="511"/>
+	<SubTexture name="pico mad instance 10000" x="778" y="10" width="364" height="511"/>
+	<SubTexture name="pico mad loop instance 10000" x="778" y="10" width="364" height="511"/>
+	<SubTexture name="pico unamused instance 10000" x="1162" y="10" width="364" height="511"/>
+	<SubTexture name="pico unamused loop instance 10000" x="1162" y="10" width="364" height="511"/>
+</TextureAtlas>

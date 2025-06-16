@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fleetway3.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Fleetway Laser Blast0000" x="0" y="0" width="532" height="710" frameX="-280" frameY="-51" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0001" x="0" y="0" width="532" height="710" frameX="-280" frameY="-51" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0002" x="532" y="0" width="534" height="672" frameX="-289" frameY="-55" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0003" x="532" y="0" width="534" height="672" frameX="-289" frameY="-55" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0004" x="1066" y="0" width="508" height="648" frameX="-348" frameY="-102" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0005" x="1066" y="0" width="508" height="648" frameX="-348" frameY="-102" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0006" x="1574" y="0" width="516" height="659" frameX="-380" frameY="-104" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0007" x="1574" y="0" width="516" height="659" frameX="-380" frameY="-104" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0008" x="2090" y="0" width="557" height="676" frameX="-387" frameY="-97" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0009" x="2090" y="0" width="557" height="676" frameX="-387" frameY="-97" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0010" x="2647" y="0" width="712" height="720" frameX="-97" frameY="-28" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0011" x="2647" y="0" width="712" height="720" frameX="-97" frameY="-28" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0012" x="3359" y="0" width="586" height="722" frameX="-1" frameY="-32" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0013" x="3359" y="0" width="586" height="722" frameX="-1" frameY="-32" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0014" x="0" y="722" width="595" height="738" frameX="-7" frameY="-29" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0015" x="0" y="722" width="595" height="738" frameX="-7" frameY="-29" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0016" x="595" y="722" width="566" height="772" frameX="0" frameY="0" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0017" x="595" y="722" width="566" height="772" frameX="0" frameY="0" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0018" x="1161" y="722" width="619" height="749" frameX="-77" frameY="-27" frameWidth="944" frameHeight="776"/>
+	<SubTexture name="Fleetway Laser Blast0019" x="1161" y="722" width="619" height="749" frameX="-77" frameY="-27" frameWidth="944" frameHeight="776"/>
+</TextureAtlas>

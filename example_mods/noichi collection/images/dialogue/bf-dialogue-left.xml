@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-dialogue-left.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf default instance 10000" x="10" y="10" width="309" height="481"/>
+	<SubTexture name="bf default loop instance 10000" x="10" y="10" width="309" height="481"/>
+</TextureAtlas>

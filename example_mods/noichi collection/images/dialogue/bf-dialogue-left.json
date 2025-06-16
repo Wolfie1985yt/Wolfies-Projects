@@ -1,0 +1,24 @@
+{
+	"position": [
+		130,
+		50
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "bf-dialogue-left",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "default",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "bf default loop",
+			"idle_name": "bf default instance 10"
+		}
+	]
+}

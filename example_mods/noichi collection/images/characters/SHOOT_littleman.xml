@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SHOOT_littleman.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shoot bf0000" x="10" y="10" width="741" height="361"/>
+	<SubTexture name="shoot bf0001" x="10" y="381" width="548" height="248" frameX="-30" frameY="-113" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0002" x="10" y="639" width="552" height="229" frameX="-36" frameY="-132" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0003" x="10" y="639" width="552" height="229" frameX="-36" frameY="-132" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0004" x="10" y="878" width="557" height="202" frameX="-39" frameY="-159" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0005" x="10" y="878" width="557" height="202" frameX="-39" frameY="-159" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0006" x="10" y="1090" width="559" height="192" frameX="-41" frameY="-169" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0007" x="10" y="1090" width="559" height="192" frameX="-41" frameY="-169" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0008" x="10" y="1292" width="560" height="189" frameX="-41" frameY="-172" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0009" x="10" y="1292" width="560" height="189" frameX="-41" frameY="-172" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0010" x="10" y="1292" width="560" height="189" frameX="-41" frameY="-172" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0011" x="10" y="1292" width="560" height="189" frameX="-41" frameY="-172" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0012" x="10" y="1292" width="560" height="189" frameX="-41" frameY="-172" frameWidth="741" frameHeight="361"/>
+	<SubTexture name="shoot bf0013" x="10" y="1292" width="560" height="189" frameX="-41" frameY="-172" frameWidth="741" frameHeight="361"/>
+</TextureAtlas>

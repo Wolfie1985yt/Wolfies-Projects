@@ -1,0 +1,64 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		130,
+		20
+	],
+	"no_antialiasing": false,
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "pico default loop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "pico default instance 10",
+			"anim": "default",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "pico mad loop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "pico mad instance 10",
+			"anim": "mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "pico unamused loop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "pico unamused instance 1",
+			"anim": "unamused",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "pico happy loop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "pico happy instance 1",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "pico-dialogue"
+}

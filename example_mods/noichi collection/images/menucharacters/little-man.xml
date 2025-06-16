@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="campaign_menu_UI_characters.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NOT COOL LITTLE MAN0000" x="10" y="10" width="722" height="365"/>
+	<SubTexture name="cool little man0000" x="10" y="385" width="702" height="365"/>
+</TextureAtlas>
