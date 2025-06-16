@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "spirit-of-halloween-dialogue",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "What are you doing, boy?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf-christmas",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Celebrating Christmas! It's only 8 weeks away!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "spirit-of-halloween-dialogue",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "You come to THIS party-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pico-dialogue",
+			"boxState": "normal",
+			"expression": "unamused",
+			"text": "I'm gunna go take a piss"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "spirit-of-halloween-dialogue",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "For MY holiday,"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "spirit-of-halloween-dialogue",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "Celebrating"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "spirit-of-halloween-dialogue",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "CHRISTMAS!?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf-christmas",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yea"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "spirit-of-halloween-dialogue",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I know how you work. And you're lucky that I enjoy a good song. I'm willing to let you off the hook if you win."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf-christmas",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "Fuck yea"
+		}
+	]
+}

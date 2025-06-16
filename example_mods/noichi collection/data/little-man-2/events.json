@@ -1,0 +1,264 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "room",
+		"player1": "bf-night",
+		"player2": "little-man-shirt",
+		"player3": null,
+		"events": [
+			[
+				49500,
+				[
+					[
+						"bonnie",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				51000,
+				[
+					[
+						"bonnie",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				65531.25,
+				[
+					[
+						"Play Animation",
+						"bonk",
+						"Dad"
+					],
+					[
+						"zoom lol",
+						"1.5",
+						""
+					]
+				]
+			],
+			[
+				66000,
+				[
+					[
+						"zoom lol",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				290537.5,
+				[
+					[
+						"Change Character",
+						"1",
+						"capybara"
+					]
+				]
+			],
+			[
+				315100,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				331225,
+				[
+					[
+						"bonnie",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				331412.5,
+				[
+					[
+						"bonnie",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				363568.75,
+				[
+					[
+						"Change Character",
+						"1",
+						"scramble"
+					]
+				]
+			],
+			[
+				390100,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				564100,
+				[
+					[
+						"Change Character",
+						"1",
+						"bloxiam"
+					]
+				]
+			],
+			[
+				577600,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				693100,
+				[
+					[
+						"Change Character",
+						"1",
+						"imposter"
+					]
+				]
+			],
+			[
+				741100,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				873092.1875,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-phone"
+					],
+					[
+						"Play Animation",
+						"singRIGHT",
+						"Dad"
+					]
+				]
+			],
+			[
+				950256.25,
+				[
+					[
+						"Play Animation",
+						"singUP",
+						"Dad"
+					]
+				]
+			],
+			[
+				953346.09375,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				1015553.125,
+				[
+					[
+						"Change Character",
+						"1",
+						"edward"
+					]
+				]
+			],
+			[
+				1039592.1875,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				1095957.14285714,
+				[
+					[
+						"Change Character",
+						"1",
+						"garcello"
+					],
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				1109457.14285714,
+				[
+					[
+						"Change Character",
+						"1",
+						"little-man-shirt"
+					]
+				]
+			],
+			[
+				1113457.14285714,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf-night"
+					]
+				]
+			],
+			[
+				1215457.14285714,
+				[
+					[
+						"Change Character",
+						"1",
+						"tankman"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 160,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Little-Man-Two"
+	}
+}

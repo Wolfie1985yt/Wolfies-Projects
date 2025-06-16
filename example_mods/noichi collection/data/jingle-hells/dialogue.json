@@ -1,0 +1,100 @@
+{
+	"dialogue": [
+		{
+			"expression": "default",
+			"text": "Hey BF it's almost time to leave for the Party! I hope you're all dressed and ready to lea-",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0,
+			"portrait": "bf-dialogue-left"
+		},
+		{
+			"expression": "unamused",
+			"text": ".....",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.25,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "unamused",
+			"text": "What are you doing.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "It's the most wonderful time of the year.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf-dialogue-left"
+		},
+		{
+			"expression": "mad",
+			"text": "No it fucking isn't.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "unamused",
+			"text": "We're literally about to go to a Halloween Party, Pico is waiting for us. Why are you even in the mood for Christmas NOW?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "Erm",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf-dialogue-left"
+		},
+		{
+			"expression": "confused",
+			"text": "Christmas is literally only eight weeks away. Why SHOULDN'T I celebrate?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf-dialogue-left"
+		},
+		{
+			"expression": "confused",
+			"text": "",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "mad",
+			"text": "BOYFRIEND.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf-dialogue"
+		},
+		{
+			"expression": "mad",
+			"text": "IT IS LITERALLY THE WEEK OF HALLOWEEN.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf-dialogue"
+		}
+	]
+}

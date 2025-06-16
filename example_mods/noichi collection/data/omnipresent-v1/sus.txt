@@ -1,0 +1,14 @@
+function onCreatePost()
+  makeLuaText('tag', 'shit', 200, 100);
+  makeLuaText('tag0', 'shit2', 200, 300);
+  setObjectCamera('tag', 'hud');
+  setObjectCamera('tag0', 'hud');
+  addLuaText('tag') --do this twice?
+  addLuaText('tag0') --do this twice?
+end
+function onBeatHit()
+  setTextString('tag', 'beat: '..curBeat);
+end
+function onStepHit()
+  setTextString('tag0', 'step: '..curStep);
+end

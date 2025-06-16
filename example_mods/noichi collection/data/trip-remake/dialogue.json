@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "neutral",
+			"text": "Yoooo, glad you made it, BF!",
+			"boxState": "normal",
+			"portrait": "naji",
+			"speed": 0.045,
+			"sound": ""
+		},
+		{
+			"expression": "neutral",
+			"text": "Bro, it took me like 5 seconds to find you.",
+			"boxState": "normal",
+			"portrait": "najibf",
+			"speed": 0.045,
+			"sound": ""
+		},
+		{
+			"expression": "sad",
+			"text": "You LIVE in a small ass town.",
+			"boxState": "normal",
+			"portrait": "najibf",
+			"speed": 0.045,
+			"sound": ""
+		},
+		{
+			"expression": "bruh",
+			"text": "...right.",
+			"boxState": "normal",
+			"portrait": "naji",
+			"speed": 0.045,
+			"sound": ""
+		},
+		{
+			"expression": "neutral",
+			"text": "Well, ready to throwdown?",
+			"boxState": "normal",
+			"portrait": "naji",
+			"speed": 0.045,
+			"sound": ""
+		},
+		{
+			"expression": "hyped",
+			"text": "Hell yea, Hit it, Cesarfever!",
+			"boxState": "normal",
+			"portrait": "najibf",
+			"speed": 0.075,
+			"sound": ""
+		},
+		{
+			"expression": "huh",
+			"text": "wait what-",
+			"boxState": "normal",
+			"portrait": "naji",
+			"speed": 0.035,
+			"sound": ""
+		}
+	]
+}

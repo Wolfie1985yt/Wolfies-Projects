@@ -1,0 +1,3 @@
+Composer: Noichi
+Charter: Heckat
+Blob Sprites/Icon: Elmos_Wife
