@@ -956,6 +956,10 @@ class FunkinLua {
 			}
 			MusicBeatState.getVariables().set(tag, leSprite);
 		});
+		Lua_helper.add_callback(lua, "setDropColors", function(obj:String, color:String, angle:Float = 0, brightness:Float = 100, hue:Float = 0, contrast:Float = 0, saturation:Float = 0, blend:Bool, ?threshold:Float, ?distance:Int) {
+			var real:FlxSprite = LuaUtils.getObjectDirectly(obj);
+			real.setDropColors(CoolUtil.colorFromString(color), angle, brightness, hue, contrast, saturation, blend, threshold, distance);
+		});
 
 		Lua_helper.add_callback(lua, "makeGraphic", function(obj:String, width:Int = 256, height:Int = 256, color:String = 'FFFFFF') {
 			var spr:FlxSprite = LuaUtils.getObjectDirectly(obj);

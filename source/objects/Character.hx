@@ -9,8 +9,6 @@ import openfl.utils.AssetType;
 import openfl.utils.Assets;
 import haxe.Json;
 
-import shaders.DropShadowShader;
-
 import backend.Song;
 import states.stages.objects.TankmenBG;
 
@@ -83,9 +81,6 @@ class Character extends FlxSprite
 	public var originalFlipX:Bool = false;
 	public var editorIsPlayer:Null<Bool> = null;
 
-	public var dropShadowShader:DropShadowShader;
-	public var dropShader:Bool = false;
-
 	public function new(x:Float, y:Float, ?character:String = 'bf', ?isPlayer:Bool = false)
 	{
 		super(x, y);
@@ -105,49 +100,6 @@ class Character extends FlxSprite
 			case 'pico-blazin', 'darnell-blazin':
 				skipDance = true;
 		}
-	}
-
-	public function setDropColors(color:FlxColor, angle:Float, brightness:Float, hue:Float, contrast:Float, saturation:Float, ?blend:Bool = true, ?threshold:Float, ?distance:Int) {
-		/*
-			How to use
-
-			color is what color you want to put on the highlights of the character in hex with 0xFF in front; ex: 0xFF3C48EF
-
-			angle is which direction the light is coming from in relation to a circle with raising the value
-			moving counter-clockwise and lowering the value being clockwise, 0 being the right to left, 90 being top to bottom, and so on
-
-			brightness is how bright or dim you want the character to be, can be positive or negative, with 0 being being no change
-
-			hue is the color that is put on the rest of the character
-
-			contrast is similar to brightness but it more makes colors stand out more / have more affect on the character
-
-			saturation is how vibrant you want the character to be, can be positive or negative
-
-			threshold is how intense the highlights are, with 1 being no highlight and any lower number increasing the highlight intensity,
-			recommended to keep above 0
-
-			blend is if you want the highlights color to mix with the characters sprite
-
-			distance is how far down the pixels go
-		*/
-
-		dropShadowShader = new DropShadowShader(this);
-		this.shader = dropShadowShader;
-
-		dropShadowShader.angle = angle;
-
-		if(threshold >= 0)
-			dropShadowShader.threshold = threshold;
-
-		dropShadowShader.color = color;
-		dropShadowShader.baseBrightness = brightness;
-		dropShadowShader.baseHue = hue;
-		dropShadowShader.baseContrast = contrast;
-		dropShadowShader.baseSaturation = saturation;
-		dropShadowShader.blendShit = blend;
-
-		dropShader = true;
 	}
 
 	public function changeCharacter(character:String)
@@ -286,10 +238,6 @@ class Character extends FlxSprite
 
 	override function update(elapsed:Float)
 	{
-		if(dropShader) {
-			this.shader = dropShadowShader;
-			dropShadowShader.updateFrameInfo(this.frame);
-		}
 		if(isAnimateAtlas) atlas.update(elapsed);
 
 		if(debugMode || (!isAnimateAtlas && animation.curAnim == null) || (isAnimateAtlas && (atlas.anim.curInstance == null || atlas.anim.curSymbol == null)))

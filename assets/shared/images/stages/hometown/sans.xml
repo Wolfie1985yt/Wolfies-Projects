@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sans.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sanswindow0000" x="10" y="10" width="477" height="219"/>
+	<SubTexture name="sanswindow0001" x="10" y="10" width="477" height="219"/>
+	<SubTexture name="sanswindow0002" x="497" y="10" width="477" height="219"/>
+	<SubTexture name="sanswindow0003" x="497" y="10" width="477" height="219"/>
+	<SubTexture name="sanswindow0004" x="10" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0005" x="10" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0006" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0007" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0008" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0009" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0010" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0011" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0012" x="497" y="239" width="477" height="219"/>
+	<SubTexture name="sanswindow0013" x="497" y="239" width="477" height="219"/>
+</TextureAtlas>

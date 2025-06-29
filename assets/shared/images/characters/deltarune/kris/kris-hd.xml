@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kris-hd.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kris dance0000" x="10" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0001" x="10" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0002" x="10" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0003" x="229" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0004" x="229" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0005" x="229" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0006" x="448" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0007" x="448" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0008" x="448" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0009" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0010" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0011" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0012" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0013" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0014" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0015" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0016" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0017" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0018" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0019" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris dance0020" x="667" y="10" width="209" height="501"/>
+	<SubTexture name="kris down  note0000" x="886" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0001" x="886" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0002" x="886" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0003" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0004" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0005" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0006" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0007" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0008" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0009" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0010" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0011" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0012" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris down  note0013" x="1124" y="10" width="228" height="486"/>
+	<SubTexture name="kris left  note0000" x="1362" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0001" x="1362" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0002" x="1362" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0003" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0004" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0005" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0006" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0007" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0008" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0009" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0010" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0011" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0012" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris left  note0013" x="1620" y="10" width="248" height="502"/>
+	<SubTexture name="kris right  note0000" x="10" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0001" x="10" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0002" x="10" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0003" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0004" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0005" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0006" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0007" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0008" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0009" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0010" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0011" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0012" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris right  note0013" x="321" y="522" width="301" height="499"/>
+	<SubTexture name="kris stare0000" x="632" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0001" x="632" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0002" x="632" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0003" x="854" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0004" x="854" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0005" x="854" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0006" x="1076" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0007" x="1076" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0008" x="1076" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0009" x="1076" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0010" x="1076" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0011" x="1298" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0012" x="1298" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0013" x="1298" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0014" x="1298" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0015" x="1298" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0016" x="1298" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0017" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0018" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0019" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0020" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0021" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0022" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0023" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0024" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0025" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0026" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0027" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris stare0028" x="1520" y="522" width="212" height="509"/>
+	<SubTexture name="kris up note0000" x="1742" y="522" width="218" height="508"/>
+	<SubTexture name="kris up note0001" x="1742" y="522" width="218" height="508"/>
+	<SubTexture name="kris up note0002" x="1742" y="522" width="218" height="508"/>
+	<SubTexture name="kris up note0003" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0004" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0005" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0006" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0007" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0008" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0009" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0010" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0011" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0012" x="10" y="1041" width="218" height="508"/>
+	<SubTexture name="kris up note0013" x="10" y="1041" width="218" height="508"/>
+</TextureAtlas>

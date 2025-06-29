@@ -748,7 +748,7 @@ class PlayState extends MusicBeatState
 			eventNotes.sort(sortByTime);
 		}
 
-		if (songName == 'chewmate-hotfix' || songName.toLowerCase() == 'tv-time')
+		if (songName == 'chewmate-hotfix' || songName.toLowerCase() == 'tv-time' || songName == 'unnamed-deltarune-song')
 			autoZooming = false;
 
 		startCallback();
@@ -1241,7 +1241,7 @@ class PlayState extends MusicBeatState
 	inline private function createCountdownSprite(image:String, antialias:Bool):FlxSprite
 	{
 		var spr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(image));
-		spr.cameras = [camHUD];
+		spr.cameras = [camOther];
 		spr.scrollFactor.set();
 		spr.updateHitbox();
 

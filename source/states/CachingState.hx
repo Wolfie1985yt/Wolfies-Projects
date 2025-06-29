@@ -74,7 +74,7 @@ class CachingState extends FlxState {
     
         var filesPushed:Array<String> = [];
         var songsPushed:Array<String> = [];
-        var foldersToCheck:Array<String> = ["assets/shared/images", "assets/songs"];
+        var foldersToCheck:Array<String> = ["assets/shared/images/sprits"];
         var filesToPush:Array<Array<String>> = [
             ["scorched", "preload", ".png"],
             ["Transition/head", "preload", ".png"],

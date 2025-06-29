@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="susie.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="susie bop0000" x="10" y="10" width="382" height="416"/>
+	<SubTexture name="susie bop0001" x="10" y="10" width="382" height="416"/>
+	<SubTexture name="susie bop0002" x="402" y="10" width="382" height="416"/>
+	<SubTexture name="susie bop0003" x="402" y="10" width="382" height="416"/>
+	<SubTexture name="susie bop0004" x="10" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0005" x="10" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0006" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0007" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0008" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0009" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0010" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0011" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0012" x="402" y="436" width="382" height="416"/>
+	<SubTexture name="susie bop0013" x="402" y="436" width="382" height="416"/>
+</TextureAtlas>
