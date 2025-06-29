@@ -1241,7 +1241,10 @@ class PlayState extends MusicBeatState
 	inline private function createCountdownSprite(image:String, antialias:Bool):FlxSprite
 	{
 		var spr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(image));
-		spr.cameras = [camOther];
+		if(songName == 'unnamed-deltarune-song')
+			spr.cameras = [camOther];
+		else
+			spr.cameras = [camHUD];
 		spr.scrollFactor.set();
 		spr.updateHitbox();
 
