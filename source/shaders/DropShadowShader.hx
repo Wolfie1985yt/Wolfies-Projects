@@ -21,7 +21,6 @@ import openfl.display.BitmapData;
  */
 class DropShadowShader extends FlxShader
 {
-	var char:objects.Character = null;
 	var sprit:FlxSprite;
 	/*
 		the character lmao
@@ -233,24 +232,6 @@ class DropShadowShader extends FlxShader
 		if (attachedSprite != null){
 			attachedSpriteFlipX.value = [attachedSprite.flipX];
 			attachedSpriteFlipY.value = [attachedSprite.flipY];
-		}
-	}
-
-	public function attachCharacter(character:objects.Character):Void
-	{
-		attachedSprite = character; // Character IS a FlxSprite already
-		updateFrameInfo(character.frame);
-	
-		character.animation.callback = function(name:String, frameNumber:Int, frameIndex:Int):Void
-		{
-			updateFrameInfo(character.frame);
-		};
-	
-		if (character.animation.getByName('idle') != null && character.animation.getByName('idle').frames != null)
-		{
-			var animData = character.animation.getByName('idle').frames;
-			maskThreshold = 0.5;
-			useAltMask = true;
 		}
 	}
 
@@ -477,17 +458,17 @@ class DropShadowShader extends FlxShader
 					dropShadowAmount = texture2D(bitmap, checkedPixel).a;
 				}
 
-				vec3 thingsgs = dropColor.rgb * ((1.0 - (dropShadowAmount * str)) * intensity);
+				float thingsgs = dropColor.rgb * ((1.0 - (dropShadowAmount * str)) * intensity);
 
 				if(!doBlend && !blackout) {
-					if(dot(thingsgs, vec3(0.299, 0.587, 0.114)) > 0.6)
-						col.rgb = thingsgs;
+					if(thingsgs>0.6)
+						col.rgb = dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
 					else
-						col.rgb += thingsgs;
+						col.rgb += dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
 				} else if (blackout) {
-					col.rgb = thingsgs;
+					col.rgb = dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
 				} else {
-					col.rgb += thingsgs;
+					col.rgb += dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
 				}
 				return col;
 			}
@@ -507,7 +488,7 @@ class DropShadowShader extends FlxShader
 
 		')
 
-	public function new(?sprite:FlxSprite, ?character:objects.Character)
+	public function new(?sprite:FlxSprite)
 	{
 		super();
 
@@ -530,12 +511,6 @@ class DropShadowShader extends FlxShader
 		angOffset.value = [0];
 		attachedSpriteFlipX.value = [false];
 		attachedSpriteFlipY.value = [false];
-
-		if(character != null) {
-			char = character;
-			this.attachedSprite = char;
-			this.attachCharacter(char);
-		}
 
 		if(sprite != null) {
 			sprit = sprite;

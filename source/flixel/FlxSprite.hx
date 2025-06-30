@@ -789,6 +789,9 @@ class FlxSprite extends FlxObject
 		if(threshold >= 0)
 			dropShadowShader.threshold = threshold;
 
+		if(distance >= 0)
+			dropShadowShader.distance = distance;
+
 		dropShadowShader.color = color;
 		dropShadowShader.baseBrightness = brightness;
 		dropShadowShader.baseHue = hue;
