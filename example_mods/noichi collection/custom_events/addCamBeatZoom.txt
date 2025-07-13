@@ -1,6 +1,0 @@
-Value 1: GAME Zoom
-Value 2: HUD Zoom
-
-The same as 'Add Camera Zoom', except occurs every beat.
-
-Set both values to 0 to stop it.

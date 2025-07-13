@@ -458,18 +458,19 @@ class DropShadowShader extends FlxShader
 					dropShadowAmount = texture2D(bitmap, checkedPixel).a;
 				}
 
-				float thingsgs = dropColor.rgb * ((1.0 - (dropShadowAmount * str)) * intensity);
+				vec3 thingsgs = dropColor.rgb * ((1.0 - (dropShadowAmount * str)) * intensity);
 
-				if(!doBlend && !blackout) {
-					if(thingsgs>0.6)
-						col.rgb = dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
+				if (!doBlend && !blackout) {
+					if (((1.0 - (dropShadowAmount * str)) * intensity) > 0.6)
+						col.rgb = thingsgs;
 					else
-						col.rgb += dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
+						col.rgb += thingsgs;
 				} else if (blackout) {
-					col.rgb = dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
+					col.rgb = thingsgs;
 				} else {
-					col.rgb += dropColor.rgb * ((1.0 - (dropShadowAmount * str))*intensity);
+					col.rgb += thingsgs;
 				}
+
 				return col;
 			}
 

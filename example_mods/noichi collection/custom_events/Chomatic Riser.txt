@@ -1,2 +1,0 @@
-value1=new Zoom
-value2=time (in Steps)

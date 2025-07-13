@@ -1,2 +1,0 @@
-true to add bonnie
-false to remove bonnie

@@ -1,1 +1,0 @@
--Fixed the bg and fg characters not bopping to the beat of the song

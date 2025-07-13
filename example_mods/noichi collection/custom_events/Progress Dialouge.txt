@@ -1,2 +1,0 @@
-value1=text letter separate by /
-value2=Is 'Question' or 'SpecialText'
