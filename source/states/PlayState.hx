@@ -473,6 +473,7 @@ class PlayState extends MusicBeatState
 			case 'phillyStreets': new PhillyStreets(); 	//Weekend 1 - Darnell, Lit Up, 2Hot
 			case 'phillyBlazin': new PhillyBlazin();	//Weekend 1 - Blazin
 			case 'gameshow': new Gameshow();
+			case 'prey': new Prey();
 		}
 
 		switch(songName.toLowerCase()) {

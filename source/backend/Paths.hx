@@ -271,8 +271,6 @@ class Paths
 				bitmap.image.data = null;
 				bitmap.image = null;
 				bitmap.readable = true;
-		
-				// VRAM tracking
 				debug.FPSCounter.trackVRAM(key, bitmap);
 		
 				trace('Sprite Loaded in GPU: ' + getPath(key, IMAGE, parentFolder));

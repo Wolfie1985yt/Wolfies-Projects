@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["prey-bg", "icon-tomongus", [255, 103, 112]],
+		["faker", "faker", [255, 103, 112]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "",
+	"weekBefore": "",
+	"weekName": "Tomongus",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false,
+	"difficulties": "hard"
+}

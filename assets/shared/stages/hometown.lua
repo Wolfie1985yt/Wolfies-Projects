@@ -59,7 +59,7 @@ function onCreatePost()
     setDropColors('dad', 'd38c22', 160, -30, 0, 0, 0, true);
     setDropColors('trees', 'd38c22', 160, -30, 0, 0, 0, true);
     setDropColors('trees2', 'd38c22', 160, -30, 0, 0, 0, true);
-    setDropColors('iconP1', 'd38c22', 30, -30, 0, 0, 0, false);
+    setDropColors('iconP1', 'd38c22', 30, -30, 0, 0, 0, true);
     setDropColors('iconP2', 'd38c22', 160, -30, 0, 0, 0, true);
     setDropColors('town', 'd38c22', 160, -30, 0, 0, 0, true);
     setDropColors('bg', 'd38c22', 160, -30, 0, 0, 0, true);

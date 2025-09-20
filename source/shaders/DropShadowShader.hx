@@ -18,17 +18,22 @@ import openfl.display.BitmapData;
 	for the drop shadow to look right (e.g. the tankmen on GF's speakers).
 
 	Also has an Adjust Color shader in here so they can work together when needed.
- */
+ */
 class DropShadowShader extends FlxShader
 {
 	var sprit:FlxSprite;
 	/*
-		the character lmao
+		the SPRITE not character anymore asshole
 	*/
+
+	public var spriteAlpha(default, set):Float;
+	public var overlay(default, set):FlxColor;
+	public var uOverlay(default, set):Bool = false;
+	public var overlayStren(default, set):Float = 1.0;
 
 	/*
 		The color of the drop shadow.
-	 */
+	 */
 	public var color(default, set):FlxColor;
 
 	/*
@@ -39,7 +44,7 @@ class DropShadowShader extends FlxShader
 		90 = UP
 		180 = LEFT
 		270 = DOWN
-	 */
+	 */
 	public var angle(default, set):Float;
 
 	public var blendShit(default, set):Bool;
@@ -49,33 +54,33 @@ class DropShadowShader extends FlxShader
 	/*
 		The distance or size of the drop shadow, in pixels,
 		relative to the texture itself... NOT the camera.
-	 */
+	 */
 	public var distance(default, set):Float;
 
 	/*
 		The strength of the drop shadow.
 		Effectively just an alpha multiplier.
-	 */
+	 */
 	public var strength(default, set):Float;
 
 	/*
 		The brightness threshold for the drop shadow.
 		Anything below this number will NOT be affected by the drop shadow shader.
 		A value of 0 effectively means theres no threshold, and vice versa.
-	 */
+	 */
 	public var threshold(default, set):Float;
 
 	/*
 		The amount of antialias samples per-pixel,
 		used to smooth out any hard edges the brightness thresholding creates.
 		Defaults to 2, and 0 will remove any smoothing.
-	 */
+	 */
 	public var antialiasAmt(default, set):Float;
 
 	/*
 		Whether the shader should try and use the alternate mask.
 		False by default.
-	 */
+	 */
 	public var useAltMask(default, set):Bool;
 
 	/*
@@ -83,47 +88,71 @@ class DropShadowShader extends FlxShader
 		At the moment, it uses the blue channel to specify what is or isnt going to use the alternate threshold.
 		(its kinda sloppy rn i need to make it work a little nicer)
 		TODO: maybe have a sort of "threshold intensity texture" as well? where higher/lower values indicate threshold strength..
-	 */
+	 */
 	public var altMaskImage(default, set):BitmapData;
 
 	/*
 		An alternate brightness threshold for the drop shadow.
 		Anything below this number will NOT be affected by the drop shadow shader,
 		but ONLY when the pixel is within the mask.
-	 */
+	 */
 	public var maskThreshold(default, set):Float;
 
 	/*
 		The FlxSprite that the shader should get the frame data from.
 		Needed to keep the drop shadow shader in the correct bounds and rotation.
-	 */
+	 */
 	public var attachedSprite(default, set):FlxSprite;
 
 	/*
 		The hue component of the Adjust Color part of the shader.
-	 */
+	 */
 	public var baseHue(default, set):Float;
 
 	/*
 		The saturation component of the Adjust Color part of the shader.
-	 */
+	 */
 	public var baseSaturation(default, set):Float;
 
 	/*
 		The brightness component of the Adjust Color part of the shader.
-	 */
+	 */
 	public var baseBrightness(default, set):Float;
 
 	/*
 		The contrast component of the Adjust Color part of the shader.
-	 */
+	 */
 	public var baseContrast(default, set):Float;
 
 	/*
 		Snap drop shadow UV to the sprite sheet's pixel size.
-	 */
+	 */
 	public var usePixelPerfect(default, set):Bool;
 	
+	function set_spriteAlpha(val:Float):Float {
+		spriteAlpha = val;
+		uSpriteAlpha.value = [ val ];
+		return val;
+	}
+
+	function set_overlay(val:FlxColor):FlxColor {
+		overlay = val;
+		overlayColor.value = [val.red / 255, val.green / 255, val.blue / 255];
+		return val;
+	}
+
+	function set_uOverlay(val:Bool):Bool {
+		uOverlay = val;
+		useOverlay.value = [val];
+		return val;
+	}
+
+	function set_overlayStren(val:Float):Float {
+		overlayStren = val;
+		overlayStrength.value = [val];
+		return val;
+	}
+
 	function set_baseHue(val:Float):Float
 	{
 		baseHue = val;
@@ -144,7 +173,7 @@ class DropShadowShader extends FlxShader
 		brightness.value = [val];
 		return val;
 	}
-
+	
 	function set_baseContrast(val:Float):Float
 	{
 		baseContrast = val;
@@ -205,7 +234,7 @@ class DropShadowShader extends FlxShader
 	/*
 		Loads an image for the mask.
 		While you *could* directly set the value of the mask, this function works for both HTML5 and desktop targets.
-	 */
+	 */
 	public function loadAltMask(path:String)
 	{
 		#if html5
@@ -219,7 +248,7 @@ class DropShadowShader extends FlxShader
 
 	/*
 		Updates the frame bounds and angle offset of the sprite for the shader.
-	 */
+	 */
 	public function updateFrameInfo(frame:FlxFrame)
 	{
 		// NOTE: uv.width is actually the right pos and uv.height is the bottom pos
@@ -233,6 +262,7 @@ class DropShadowShader extends FlxShader
 			attachedSpriteFlipX.value = [attachedSprite.flipX];
 			attachedSpriteFlipY.value = [attachedSprite.flipY];
 		}
+		uSpriteAlpha.value = [attachedSprite.alpha];
 	}
 
 	public function attachSprite(spri:FlxSprite):Void
@@ -291,22 +321,19 @@ class DropShadowShader extends FlxShader
 	@:glFragmentSource('
 			#pragma header
 
-			// This shader aims to mostly recreate how Adobe Animate/Flash handles drop shadows, but its main use here is for rim lighting.
+			// i stole this from the fnf source code then added a ton of stuff to it lmao
 
-			// this shader also includes a recreation of the Animate/Flash "Adjust Color" filter,
-			// which was kindly provided and written by Rozebud https://github.com/ThatRozebudDude ( thank u rozebud :) )
-			// Adapted from Andrey-Postelzhuks shader found here: https://forum.unity.com/threads/hue-saturation-brightness-contrast-shader.260649/
-			// Hue rotation stuff is from here: https://www.w3.org/TR/filter-effects/#feColorMatrixElement
+			uniform float uSpriteAlpha;
+			uniform bool useOverlay;
+			uniform vec3 overlayColor;
+			uniform float overlayStrength;
 
-			// equals (frame.left, frame.top, frame.right, frame.bottom)
 			uniform vec4 uFrameBounds;
-
 			uniform float ang;
 			uniform float dist;
 			uniform float str;
 			uniform float thr;
 
-			// need to account for rotated frames... oops
 			uniform float angOffset;
 
 			uniform sampler2D altMask;
@@ -484,7 +511,11 @@ class DropShadowShader extends FlxShader
 
 				outColor = createDropShadow(outColor, thr, useMask);
 
-				gl_FragColor = vec4(outColor.rgb * col.a, col.a);
+				if (useOverlay) {
+					outColor.rgb = mix(outColor.rgb, overlayColor, overlayStrength);
+				}
+
+				gl_FragColor = vec4(outColor.rgb * col.a * uSpriteAlpha, col.a * uSpriteAlpha);
 			}
 
 		')
@@ -492,6 +523,13 @@ class DropShadowShader extends FlxShader
 	public function new(?sprite:FlxSprite)
 	{
 		super();
+
+		spriteAlpha = sprite != null ? sprite.alpha : 1.0;
+		uSpriteAlpha.value = [spriteAlpha];
+
+		overlay = FlxColor.WHITE;
+		uOverlay = false;
+		overlayStren = 1.0;
 
 		angle = 0;
 		strength = 1;
@@ -526,4 +564,3 @@ class DropShadowShader extends FlxShader
 		return value;
 	}
 }
-

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Prey_Light.png">
+<SubTexture name="Silent0000" x="0" y="0" width="3840" height="400" frameX="0" frameY="-1590" frameWidth="3840" frameHeight="3270" />
+<SubTexture name="Active0000" x="0" y="400" width="3840" height="400" frameX="0" frameY="-1590" frameWidth="3840" frameHeight="3270" />
+<SubTexture name="Active0001" x="0" y="800" width="3840" height="400" frameX="0" frameY="-1590" frameWidth="3840" frameHeight="3270" />
+<SubTexture name="Active0002" x="0" y="1200" width="3840" height="400" frameX="0" frameY="-1590" frameWidth="3840" frameHeight="3270" />
+</TextureAtlas>
