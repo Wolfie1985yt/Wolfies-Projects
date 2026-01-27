@@ -1915,6 +1915,8 @@ class PlayState extends MusicBeatState
 				openChartEditor();
 			else if (controls.justPressed('debug_2'))
 				openCharacterEditor();
+			else if (controls.justPressed('debug_3'))
+				cpuControlled = !cpuControlled;
 		}
 
 		if (healthBar.bounds.max != null && health > healthBar.bounds.max)

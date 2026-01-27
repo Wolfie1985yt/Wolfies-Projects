@@ -1,7 +1,8 @@
 {
 	"songs": [
 		["prey-bg", "icon-tomongus", [255, 103, 112]],
-		["faker", "faker", [255, 103, 112]]
+		["faker", "faker", [255, 103, 112]],
+		["triple-trouble-if-it-was-hella-tuff", "faker", [255, 103, 112]]
 	],
 
 	"weekCharacters": [
